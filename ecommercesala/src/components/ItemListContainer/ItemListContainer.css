@@ -1,0 +1,12 @@
+.Tipo {
+    font-weight: bold;
+    color: blue;
+}
+
+.Descripcion {
+    font-style: italic;
+}
+
+.contenedorIndu {
+    background: linear-gradient(90deg, rgb(188, 197, 206) 3%, rgb(45, 109, 146) 52%, rgb(101, 92, 177) 96%);
+}

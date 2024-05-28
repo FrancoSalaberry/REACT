@@ -1,0 +1,33 @@
+
+.contenedorNavbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, rgb(188, 197, 206) 3%, rgb(45, 109, 146) 52%, rgb(3, 53, 100) 96%);
+}
+
+.imgnavbar {
+    width: 80px;
+    height: 80px;
+    justify-content: flex-start; 
+
+}
+
+.referencias {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+    margin-left: 350px;
+
+}
+
+.carrito {
+    margin-left: 350px;
+}

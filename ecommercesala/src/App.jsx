@@ -1,12 +1,15 @@
 import './App.css'
-import MenuSala from './components/menu/menu'
-import Indumentaria from './components/indumentaria/indumentaria'
+import NavBar from './components/NavBar/NavBar'
+import Indumentaria from './components/ItemListContainer/ItemListContainer'
+
 
 
 function App() {
   return (
     <div>
-      <MenuSala/>
+      
+      <NavBar/>
+
       <h3>Indumentaria</h3>
       <Indumentaria tipe='Pantalon' description='pantalon de jean celeste' />
       <Indumentaria tipe='Remera' description='Remera cuello en v Negra' />
