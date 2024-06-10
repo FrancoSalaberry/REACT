@@ -1,10 +1,15 @@
 .contenedor {
     display: flex;
     align-items: center;
-    
+    margin-right: 20px;
 }
 
 .Imgcarrito {
     width: 35px;
     height: 35px;
+}
+
+.contador {
+    margin-right: 20px;
+    color: aliceblue;
 }

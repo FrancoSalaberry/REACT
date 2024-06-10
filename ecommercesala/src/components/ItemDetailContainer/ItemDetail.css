@@ -1,0 +1,25 @@
+.contenedorCardp {
+    background: linear-gradient(90deg, rgb(0, 0, 0) 3%, rgb(45, 109, 146) 52%, rgb(101, 92, 177) 96%);
+    border: 1px solid black; /* Borde para cada carta */
+    padding: 10px; /* Espacio interno */
+}
+
+.Tipo {
+    font-weight: bold;
+    color: blue;
+}
+
+.Descripcion {
+    font-style: italic;
+    color: aliceblue;
+}
+
+.ImagenCard {
+    justify-content: flex-start; 
+    width: 50px;
+    height: 50px;
+
+}
+.Price {
+    color: aliceblue;
+}

@@ -1,24 +1,24 @@
 import { useState } from "react"
-import './CartWidget.css'
 
-const Carrito = () => {
-    const [contador, setContador] = useState (1)
+const ItemCount = () => {
+    const [ItemCount, setItemCount] = useState (1)
 
     const suma = () => {
-        setContador(contador + 1)
+        setContador(ItemCount + 1)
     }
     const resta = () => {
-        if (contador > 1)setContador(contador - 1)
+        if (ItemCount > 1)setItemCount(ItemCount - 1)
     }
     return (
         <div className="contenedor">
-            <p className="contador">{contador}</p>
+            <p>{ItemCount}</p>
             <button onClick={resta}>-</button>
             <button onClick={suma}>+</button>
+            <button>Agregar Carrito</button>
             <img className="Imgcarrito" src="../images/Carrito.png" alt="" />
         </div>
         
     )
 }
 
-export default Carrito
+export default ItemCount
